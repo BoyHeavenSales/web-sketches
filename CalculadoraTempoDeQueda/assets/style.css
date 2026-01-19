@@ -1,0 +1,8 @@
+.conteudo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(77, 190, 255);
+    padding: 20px 30px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 500px;
+}

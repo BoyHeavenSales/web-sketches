@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tempo de Queda</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <section class="conteudo">
+        <h2>Calculadora de Tempo de Queda</h2>
+        <form id="formulario">
+            <p>
+            <label for="altura">Altura:</label>
+            <input type="number" step="any" id="altura" name="altura" value="0">
+            <select id="unidade-altura" name="unidade-altura">
+                <option value="metros">Metros</option>
+                <option value="pés">Kilometros</option>
+            </select>
+            </p> 
+            <p>           
+            <label for="angulo-inicial">Ângulo inicial (graus):</label>
+            <input type="number" id="angulo-inicial" name="angulo-inicial" value="0">
+            </p>
+            <p>
+            <label for="velocidade-inicial">Velocidade inicial:</label>
+            <input type="number" id="velocidade-inicial" name="velocidade-inicial" value="0">
+            <select id="unidade-velocidade" name="unidade-velocidade">
+                <option value="m/s">m/s</option>
+                <option value="km/h">km/h</option>
+            </select>
+            </p>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado">
+        </div>
+    </section>
+    <script src="assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Juros Composto</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <section class="conteudo">
+        <h2>Calculadora de Juros Composto</h2>
+        <form id="formulario">
+            <p>
+            <label for="capital-inicial">Capital Inicial:</label>   
+            <input type="number" step="any" id="capital-inicial" name="capital-inicial" value="0">
+            <select id="unidade-capital" name="unidade-capital">
+                <option value="R$">Reais (R$)</option>
+                <option value="US$">Dólares (US$)</option>
+            </select>
+            </p>
+            <p>
+            <label for="taxa-juros">Taxa de Juros (% ao período):</label>
+            <input type="number" step="any" id="taxa-juros" name="taxa-juros" value="0">    
+            </p>
+            <p>
+            <label for="periodos">Número de Períodos:</label>
+            <input type="number" step="any" id="periodos" name="periodos" value="0">
+            </p>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado">
+        </div>
+    </section>
+    <script src="assets/script.js"></script>
+</body>
+</html>
