@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O guia</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <h1 class="title">O guia do mochileiro da galaxia</h1>
+    <p class="author">Escrito por <a href="#">L. S. Sales</a></p>
+
+    <section class="content">
+        <h1>Adicionar verbete</h1>
+        <form id="formulario">
+            <label for="termo">Termo:</label>
+            <input type="text" id="termo" name="termo" required>
+
+            <label for="definicao">Definição:</label>
+            <textarea id="definicao" name="definicao" required></textarea>
+
+            <button type="submit">Adicionar</button>
+        </form>
+    </section>
+    
+    <section class="entries">
+        <h1>Verbetes</h1>
+        <div id="lista-verbetes">
+            <!-- Verbetes serão adicionados aqui dinamicamente -->
+        </div>
+
+    </section>
+    <script src="assets/main.js"></script>
+</body>
+</html>

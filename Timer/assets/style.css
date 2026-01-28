@@ -1,0 +1,33 @@
+:root {
+    --primary-background: rgb(184, 255, 249);
+    --primary-color: rgb(0, 147, 206);
+}
+body {
+    background-color: var(--primary-background);
+    align-items: center;
+}
+.conteudo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--primary-color);
+    color: white;
+    margin: 100px auto;
+    align-items: center;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+}
+.conteudo button {
+    background-color: white;
+    color: var(--primary-color);
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;}
+.tempo {
+    font-size: 48px;
+}   
