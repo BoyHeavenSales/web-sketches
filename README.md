@@ -2,6 +2,10 @@
 Sites para testar meu aprendizado em desenvolvimento web
 
 # Projetos atuais
+## Carinho De Compras
+**Descrição:** Lista de compras que permite adicionar produtos e seus respectivos preços, exibindo o valor total acumulado em tempo real.
+**Destaque tecnico:** Implementação de persistência de dados utilizando localStorage e JSON para salvar e recuperar a lista após o carregamento da página. Manipulação dinâmica do DOM para criação de elementos e delegação de eventos para remoção de itens.
+
 ## Timer
 **Descrição:** Um timer simples com botões de iniciar, pausar e zerar.
 **Destaque tecnico:** Uso de new Date() para calcular o tempo decorrido. E coisas como set e get hours, minutes e seconds para formatar o tempo.
